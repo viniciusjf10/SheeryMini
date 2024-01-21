@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "mini-robot.ino",
+    "port": "/dev/ttyS0"
+}
