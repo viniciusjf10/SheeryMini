@@ -45,3 +45,6 @@ void loop()
 //bolinha de pizza
 //salsichinha
 //mini churros
+
+
+//Talvez algum dia tudo fique bem, talvez um dia não seja preciso robo pra esconder as coisas, talvez um dia, talvez...

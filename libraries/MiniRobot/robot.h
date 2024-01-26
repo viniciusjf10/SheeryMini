@@ -14,29 +14,29 @@
 
 using namespace std;
 
-#define FRONT_SENSOR_PIN 26 
-#define FULL_RIGHT_SENSOR_PIN 25
-#define FULL_LEFT_SENSOR_PIN 13
-#define LEFT_SENSOR_PIN 35
-#define RIGHT_SENSOR_PIN 34
+#define FRONT_SENSOR_PIN 26 //Frente
+#define FULL_RIGHT_SENSOR_PIN 35 //Direita
+#define FULL_LEFT_SENSOR_PIN 13 //Esquerda
+#define LEFT_SENSOR_PIN 25 //Esquerda 45
+#define RIGHT_SENSOR_PIN 34 //Direita 45
 
-#define RIGHT_MOTOR_PWM_PIN 21
-#define RIGHT_MOTOR_IN1_PIN 19
-#define RIGHT_MOTOR_IN2_PIN 18
+#define RIGHT_MOTOR_PWM_PIN 21 //Entrada de pwm
+#define RIGHT_MOTOR_IN1_PIN 19 //Controle direção
+#define RIGHT_MOTOR_IN2_PIN 18 //Controle direção
 #define RIGHT_MOTOR_SPEED_CONST 1.0
-#define RIGHT_MOTOR_CHANNEL 0
+#define RIGHT_MOTOR_CHANNEL 0 
 
-#define LEFT_MOTOR_PWM_PIN 4
-#define LEFT_MOTOR_IN1_PIN 17
-#define LEFT_MOTOR_IN2_PIN 16
+#define LEFT_MOTOR_PWM_PIN 4 //Entrada de pwm
+#define LEFT_MOTOR_IN1_PIN 17 //Controle direção
+#define LEFT_MOTOR_IN2_PIN 16 //Controle direção
 #define LEFT_MOTOR_SPEED_CONST 1.0
 #define LEFT_MOTOR_CHANNEL 1
 
-#define MICRO_START_SIGNAL_PIN 2
+#define MICRO_START_SIGNAL_PIN 2 //Pino microstart
 
-#define STRATEGY_PIN_A 22
-#define STRATEGY_PIN_B 23
-#define STRATEGY_PIN_C 14
+#define STRATEGY_PIN_A 22 //YYX
+#define STRATEGY_PIN_B 23 //YXY
+#define STRATEGY_PIN_C 27 //XYY
 
 #define STDBY 5
 
