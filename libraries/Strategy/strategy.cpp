@@ -10,9 +10,7 @@ Move::Move(int left_motor_power, int right_motor_power, int time_ms)
     this->finished = false;
 }
 
-/*
-returns true if the move finishes
-*/
+
 bool Move::update(MotorControl &left_motor, MotorControl &right_motor)
 {
     int delta_time_ms = 0;
