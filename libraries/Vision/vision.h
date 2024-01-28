@@ -1,7 +1,6 @@
 #ifndef VISION_H
 #define VISION_H
 
-#include "analog_sensor.h"
 #include "digital_sensor.h"
 #include <Arduino.h>
 

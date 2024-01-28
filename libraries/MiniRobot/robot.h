@@ -6,11 +6,9 @@
 
 #include "micro_start.h"
 #include "digital_sensor.h"
-#include "analog_sensor.h"
 #include "motor_control.h"
 #include "vision.h"
 #include "strategy.h"
-#include "SimpleKalmanFilter.h"
 
 using namespace std;
 
